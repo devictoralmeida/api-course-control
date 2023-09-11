@@ -10,12 +10,13 @@
 
 Essa aplicação é um MVP de uma API REST que faz o controle de usuários e cursos em que esses usuários serão matriculados. Com ela é póssível ter um controle de acessos, onde alguns recursos podem ser acessados apenas por usuários que fizeram login na aplicação, e outros recursos apenas usuários que fizeram login e tem permissões de administrador podem acessar.
 
-Senha salvada como hash
-
 ## :hammer: Funcionalidades do projeto:
 - CRUD de usuários
+- Criação de cursos
 - Tokenização, autenticação e proteção de rotas
 - Serialização de dados
+- Matricular usuário em um dado curso
+- Testes automatizados: Unitários e de integração.
 
 ## Tecnologias utilizadas:
 - Node.js
