@@ -1,5 +1,5 @@
 <h1 align="center">
-  Courses - API
+  Courses Control - API
 </h1>
 
 <h3 align="center">
