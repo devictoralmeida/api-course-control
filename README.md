@@ -602,4 +602,4 @@ Senha salvada como hash
 {
   "message": "Insufficient permission"
 }
-```# api-course-control
+```
