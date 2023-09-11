@@ -21,10 +21,8 @@ export const validateToken = (
       throw new AppError(error.message, 401);
     }
 
-    response.locals = {...response.locals, decoded}
+    response.locals = { ...response.locals, decoded };
   });
-
-  
 
   return next();
 };

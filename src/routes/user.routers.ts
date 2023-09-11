@@ -24,10 +24,12 @@ userRouter.post(
   createUser
 );
 
-userRouter.get("", retrieveUsers);
+userRouter.get("", validateToken, validateAdmin, retrieveUsers);
 
 userRouter.get(
   "/:id/courses",
+  validateToken, 
+  validateAdmin,
   validateUserHasCourse,
   getCoursesByUser
 );
