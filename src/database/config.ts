@@ -4,11 +4,11 @@ import { Client, ClientConfig } from "pg";
 const config = (): ClientConfig => {
   if (process.env.NODE_ENV === "test") {
     return {
-      user: "victo",
-      password: "200694",
-      host: "localhost",
-      database: "course_test",
-      port: 5432,
+      user: process.env.DB_TEST_USER,
+      password: process.env.DB_TEST_PASSWORD,
+      host: process.env.DB_TEST_HOST,
+      database: process.env.DB_TEST,
+      port: parseInt(process.env.DB_TEST_PORT!),
     };
   }
 
