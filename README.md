@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  A URL base da api é: X
+  A URL base da api é: https://api-courses-control.onrender.com
 </h3>
 
 ## Visão Geral
